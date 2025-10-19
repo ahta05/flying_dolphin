@@ -13,10 +13,10 @@
         "default": "geometry.dolphin"
       },
       "animations": {
-        "move": "animation.flying_dolphin.move"
+        "swim": "animation.dolphin.swim"
       },
       "scripts": {
-        "animate": ["move"]
+        "animate": ["swim"]
       },
       "render_controllers": ["controller.render.default"]
     }
