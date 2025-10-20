@@ -415,6 +415,17 @@
 					"range": 0,
 					"value": 0
 				}
+			},
+			"delphionix_wind_effect": {
+				"minecraft:particle_emitter": {
+					"emitter_name": "ahta:delphionix_wind_trail",
+					"activation": {
+						"event": "start_wind_effect"
+					},
+					"deactivation": {
+						"event": "stop_wind_effect"
+					}
+				}
 			}
 		},
 		"components": {
@@ -810,6 +821,16 @@
 			"perish_event": {
 				"add": {
 					"component_groups": ["perish"]
+				}
+			}
+			"start_wind_effect": {
+				"add": {
+					"component_groups": ["delphionix_wind_effect"]
+				}
+			},
+			"stop_wind_effect": {
+				"remove": {
+					"component_groups": ["delphionix_wind_effect"]
 				}
 			}
 		}
