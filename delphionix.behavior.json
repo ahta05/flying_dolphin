@@ -822,7 +822,7 @@
 				"add": {
 					"component_groups": ["perish"]
 				}
-			}
+			},
 			"start_wind_effect": {
 				"add": {
 					"component_groups": ["delphionix_wind_effect"]
